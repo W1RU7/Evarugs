@@ -1,0 +1,38 @@
+.product-block {
+	width: 100%
+	background-color: #fff;
+	box-shadow: 0px 0px 40px rgba(184, 0, 95, 0.2);
+	border-radius: 9px;
+	margin-bottom: 30px;
+}
+
+.wrapper {
+	margin-bottom: 100px;
+}
+
+.img-product {
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.title-product {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+	color: #000000;
+	padding-bottom: 15px;
+}
+
+.about-product {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 16px;
+	color: #767676;
+	width: 100%;
+}
+
+.block-text__product {
+	padding: 15px 0 15px 15px;
+}
