@@ -1,0 +1,138 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 auto;
+  background-color: #E5E5E5;;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.container {
+  max-width: 320px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 99px;
+  background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+}
+
+.number-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 10px; 
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 15px;
+}
+
+.number-phone:first-child {
+  padding-top: 22px;
+}
+
+.header-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.country-header {
+  font-style: normal;
+  padding-top: 10px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.logo {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  padding-left: 9px;
+
+}
+
+.text {
+  margin: 0 auto;
+  width: 194px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  align-items: center;
+}
+
+.sub-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #000000;
+  padding: 10px 0;
+
+}
+
+.intro-text {
+  padding-top: 40px;
+  background: url(../img/BG.png) center no-repeat;
+  height: 53vh;
+}
+
+.intro-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+        
+    border-radius: 7px;
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+     background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    transition: ease .5s linear;
+}
+
+
+.btn:hover{
+  opacity: .7;
+}
